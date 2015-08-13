@@ -1,6 +1,6 @@
-package com.jd.bdp.hadoop.reducer;
+package com.hackershell.job.hadoop.reducer;
 
-import com.jd.bdp.hadoop.jobhistory.ParserJobService;
+import com.hackershell.job.hadoop.jobhistory.ParserJobService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.fs.FileSystem;

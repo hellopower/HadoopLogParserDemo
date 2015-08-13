@@ -1,4 +1,4 @@
-package com.jd.bdp.hadoop.mapper;
+package com.hackershell.job.hadoop.mapper;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

@@ -1,4 +1,4 @@
-package com.jd.bdp.hadoop.jobhistory;
+package com.hackershell.job.hadoop.jobhistory;
 
 import org.apache.hadoop.mapred.TaskStatus;
 import org.apache.hadoop.mapreduce.TaskAttemptID;

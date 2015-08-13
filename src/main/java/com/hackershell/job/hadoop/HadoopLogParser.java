@@ -1,7 +1,8 @@
-package com.jd.bdp.hadoop;
+package com.hackershell.job.hadoop;
 
-import com.jd.bdp.hadoop.mapper.ParserJobMapper;
-import com.jd.bdp.hadoop.reducer.ParserJobReducer;
+
+import com.hackershell.job.hadoop.mapper.ParserJobMapper;
+import com.hackershell.job.hadoop.reducer.ParserJobReducer;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
@@ -40,11 +41,18 @@ public class HadoopLogParser implements Tool {
     @Override
     public int run(String[] args) throws Exception {
 
+        if (args.length != 3) {
+            print();
+            System.exit(1);
+        }
+
         String ns = args[0];
         String inputDir = args[1];
         String outputDir = args[2];
-        LOG.info("HadoopLogParser的输入路径为" + inputDir);
-        LOG.info("HadoopLogParser的输出路径为" + outputDir);
+
+        LOG.info("解析的NS为：" + ns);
+        LOG.info("HadoopLogParser的输入路径为：" + inputDir);
+        LOG.info("HadoopLogParser的输出路径为“" + outputDir);
 
         runJob(getConf(), initJobPath(inputDir), getNSTMP(ns), outputDir);
         return 0;
@@ -65,7 +73,7 @@ public class HadoopLogParser implements Tool {
     }
 
     private void print() {
-
+        System.out.println(" hadoop jar com.hackershell.job.HadoopLogParser ns inputDir outputDir");
     }
 
     private JobConf getJob(Configuration conf, int redNum, String in, String out) {

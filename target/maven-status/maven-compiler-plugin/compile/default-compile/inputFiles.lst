@@ -1,8 +1,5 @@
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/jobhistory/ParserJobService.java
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/HadoopLogParser.java
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/jobhistory/JobHistoryUtil.java
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/util/HDFSFileUtil.java
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/reducer/ParserJobReducer.java
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/util/OneMapOneDirInputFormat.java
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/mapper/ParserJobMapper.java
-/home/shangwen/software/HadoopLogParser/src/main/java/com/jd/bdp/hadoop/jobhistory/SummarizedJob.java
+/home/shangwen/software/HadoopLogParser/src/main/java/com/hackershell/job/hadoop/jobhistory/SummarizedJob.java
+/home/shangwen/software/HadoopLogParser/src/main/java/com/hackershell/job/hadoop/HadoopLogParser.java
+/home/shangwen/software/HadoopLogParser/src/main/java/com/hackershell/job/hadoop/jobhistory/ParserJobService.java
+/home/shangwen/software/HadoopLogParser/src/main/java/com/hackershell/job/hadoop/mapper/ParserJobMapper.java
+/home/shangwen/software/HadoopLogParser/src/main/java/com/hackershell/job/hadoop/reducer/ParserJobReducer.java

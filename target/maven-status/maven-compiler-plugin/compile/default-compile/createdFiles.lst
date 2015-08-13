@@ -1,8 +1,5 @@
-com/jd/bdp/hadoop/mapper/ParserJobMapper.class
-com/jd/bdp/hadoop/reducer/ParserJobReducer.class
-com/jd/bdp/hadoop/jobhistory/JobHistoryUtil.class
-com/jd/bdp/hadoop/jobhistory/SummarizedJob.class
-com/jd/bdp/hadoop/HadoopLogParser.class
-com/jd/bdp/hadoop/util/HDFSFileUtil.class
-com/jd/bdp/hadoop/jobhistory/ParserJobService.class
-com/jd/bdp/hadoop/util/OneMapOneDirInputFormat.class
+com/hackershell/job/hadoop/HadoopLogParser.class
+com/hackershell/job/hadoop/reducer/ParserJobReducer.class
+com/hackershell/job/hadoop/mapper/ParserJobMapper.class
+com/hackershell/job/hadoop/jobhistory/SummarizedJob.class
+com/hackershell/job/hadoop/jobhistory/ParserJobService.class

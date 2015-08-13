@@ -1,4 +1,4 @@
-package com.jd.bdp.hadoop.jobhistory;
+package com.hackershell.job.hadoop.jobhistory;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
